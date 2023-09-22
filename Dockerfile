@@ -5,7 +5,6 @@ COPY . .
 RUN npm ci
 RUN npm install
 RUN npm run build
-RUN npm run ci --prod
 
 FROM node:14-bullseye AS deploy
 WORKDIR /app
