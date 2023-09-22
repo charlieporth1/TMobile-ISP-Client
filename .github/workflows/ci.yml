@@ -20,8 +20,8 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            kclejeune/tmobile-isp-client
-            ghcr.io/kclejeune/tmobile-isp-client
+            otihoith/tmobile-isp-client
+            ghcr.io/otihoith/tmobile-isp-client
           tags: |
             type=edge
             type=semver,pattern={{version}}

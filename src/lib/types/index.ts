@@ -17,7 +17,10 @@ export interface DeviceAppStatus {
   UpTime: number;
   lot_number: string;
 }
-
+export interface RebootResponse {
+  result: number;
+  reason: string;
+}
 export interface DeviceCfg {
   _oid: number;
   HostName: string;

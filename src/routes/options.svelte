@@ -2,7 +2,7 @@
   import { Endpoint } from '$lib/types';
   import type { DeviceAppStatus, StatusResponse, DeviceCfg } from '$lib/types';
   export async function load({ fetch }) {
-    const res: StatusResponse = await fetch(`/api/${Endpoint.REBOOT}`).then((res: Response) =>
+    const res: RebootResponse = await fetch(`/api/${Endpoint.REBOOT}`).then((res: Response) =>
       res.json(),
     );
     const devices: DeviceCfg[] = res.device_cfg;
@@ -18,8 +18,8 @@
 
 <script lang="ts">
   import H1 from '$lib/components/ui/H1.svelte';
-  import StatusList from '$lib/components/ui/StatusList.svelte';
-  import Table from '$lib/components/ui/Table.svelte';
+  import Toggle from '$lib/components/ui/Toggle.svelte';
+  // import Table from '$lib/components/ui/Table.svelte';
   import WidgetCard from '$lib/components/ui/WidgetCard.svelte';
 
   export let devices: DeviceCfg[];
@@ -43,21 +43,11 @@
   <Table {data} {columns} />
 </div> -->
 <div class="grid grid-cols-1 gap-4 m-4 md:grid-cols-2 lg:grid-cols-3">
-  {#each devices as device}
-    <div class="col-auto">
       <WidgetCard>
         <div slot="body">
-          <StatusList
-            items={[
-              { name: 'Hostname', value: cleanHostname(device.HostName) },
-              { name: 'IP Address', value: device.IPAddress },
-              { name: 'MAC Address', value: device.MACAddress },
-              { name: 'Interface Type', value: device.InterfaceType },
-              { name: 'Address Source', value: device.AddressSource },
-            ]}
-          />
+          <p>Reboot</p>
+          <Toggle active={false}> </Toggle>
         </div>
       </WidgetCard>
     </div>
-  {/each}
 </div>
