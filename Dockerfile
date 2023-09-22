@@ -1,11 +1,11 @@
-FROM node:lts-alpine AS build
+FROM node:16.11.1-bullseye AS build
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .
 RUN npm run build && npm ci --prod
 
-FROM node:lts-alpine AS deploy
+FROM node:16.11.1-bullseye AS deploy
 WORKDIR /app
 COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/build ./build
