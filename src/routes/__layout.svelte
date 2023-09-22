@@ -4,7 +4,7 @@
   import '../app.postcss';
 
   export let title = 'T-Mobile ISP';
-  export let pages: string[] = ['Overview', 'Devices'];
+  export let pages: string[] = ['Overview','Options', 'Devices'];
   export let routes: Route[] = pages.map(
     (page): Route => {
       return {
