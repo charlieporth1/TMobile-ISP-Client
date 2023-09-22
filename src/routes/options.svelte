@@ -49,5 +49,4 @@
           <Toggle active={false}> </Toggle>
         </div>
       </WidgetCard>
-    </div>
 </div>

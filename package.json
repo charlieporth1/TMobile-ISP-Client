@@ -4,7 +4,7 @@
   "license": "MIT",
   "version": "0.1.1",
   "scripts": {
-    "dev": "snpx velte-kit dev",
+    "dev": "npx velte-kit dev",
     "build": "npx svelte-kit build",
     "preview": "npx svelte-kit preview",
     "check": "npx svelte-check --tsconfig ./tsconfig.json",
