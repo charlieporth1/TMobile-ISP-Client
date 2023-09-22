@@ -2,7 +2,7 @@ FROM node:14-bullseye AS build
 WORKDIR /app
 COPY package.json package-lock.json ./
 COPY . .
-RUN npm ci
+#RUN npm ci
 RUN npm install
 RUN npm run build
 
