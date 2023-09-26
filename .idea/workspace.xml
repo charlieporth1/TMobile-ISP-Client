@@ -1,50 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77ad7526-58ba-4580-ad52-36eb54822eb5" name="Default Changelist" comment="" />
+    <list default="true" id="ba7bf60c-4110-4d95-977e-a6041128185d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.postcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.postcss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Accordion.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Accordion.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Alert.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Alert.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Code.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Code.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/ConnectionStrengthIndicator.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/ConnectionStrengthIndicator.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Dropdown.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Dropdown.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/H1.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/H1.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Menu.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Menu.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/OnlineIndicator.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/OnlineIndicator.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/StatusList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/StatusList.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Table.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Table.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Toggle.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Toggle.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/WidgetCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/WidgetCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/widgets/DeviceInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/DeviceInformation.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/widgets/GatewayInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/GatewayInformation.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/widgets/NetworkInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/NetworkInformation.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/widgets/UsageInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/UsageInformation.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__error.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__error.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/[endpoint].ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api/[endpoint].ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/devices.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/devices.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/options.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/options.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/overview.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/overview.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/status.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/status.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="2VwbOZHmbI8VDFJxGsOJKW0f9lL" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2RLHN0aUX6x6P2YSxBYuVQIDAUb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.21.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.18.62" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/routes" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="D:\SynologyDrive\Projects\Side\TMobile-ISP-Client\node_modules\prettier" />
-    <property name="ts.external.directory.path" value="D:\SynologyDrive\Projects\Side\TMobile-ISP-Client\node_modules\typescript\lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/Cellar/node@14/14.21.3_1/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SynologyDrive\Projects\Side\TMobile-ISP-Client\src\routes" />
+      <recent name="$PROJECT_DIR$/src/routes" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="/usr/local/Cellar/node@14/14.21.3_1/bin/node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77ad7526-58ba-4580-ad52-36eb54822eb5" name="Default Changelist" comment="" />
-      <created>1695750058455</created>
+      <changelist id="ba7bf60c-4110-4d95-977e-a6041128185d" name="Default Changelist" comment="" />
+      <created>1687022399830</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1695750058455</updated>
-      <workItem from="1695750121083" duration="45000" />
-      <workItem from="1695751999514" duration="482000" />
-      <workItem from="1695752552030" duration="30000" />
-      <workItem from="1695752598155" duration="14000" />
-      <workItem from="1695752629859" duration="22000" />
-      <workItem from="1695752664679" duration="2952000" />
+      <updated>1687022399830</updated>
+      <workItem from="1687022403559" duration="966000" />
+      <workItem from="1695400004514" duration="1960000" />
+      <workItem from="1695402679658" duration="946000" />
+      <workItem from="1695407573619" duration="1078000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

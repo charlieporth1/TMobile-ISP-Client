@@ -5,10 +5,6 @@ export enum Endpoint {
   STATISTICS = 'statistics_status_web_app.cgi',
   RADIO_CONFIG = 'fastmile_statistics_status_web_app.cgi',
   REBOOT = 'reboot_web_app.cgi',
-  // https://github.com/zacharee/ArcadyanKVD21Control/blob/main/common/src/commonMain/kotlin/dev/zwander/common/model/Endpoints.kt
-  // POST: action="Reboot" or action="WLANConfig"
-  SERVICE = "service_function_app.cgi",
-
 }
 
 export interface DeviceAppStatus {

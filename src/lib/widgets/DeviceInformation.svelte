@@ -4,7 +4,7 @@
   import StatusList from '../components/ui/StatusList.svelte';
 
   export let devices: DeviceCfg[];
-  let wirelessTypes = ['802.11', '802.11n', '802.11ac', '802.11ax', '802.11n', '802.11b', '802.11g'];
+  let wirelessTypes = ['802.11', '802.11n', '802.11ac'];
   let wiredTypes = ['wlan0', 'ethernet'];
 
   $: wirelessDevices = devices.filter((d) => wirelessTypes.includes(d.InterfaceType.toLowerCase()));
