@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba7bf60c-4110-4d95-977e-a6041128185d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.postcss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.postcss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Accordion.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Accordion.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Alert.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Alert.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Card.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Code.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Code.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/ConnectionStrengthIndicator.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/ConnectionStrengthIndicator.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Dropdown.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Dropdown.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/H1.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/H1.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Menu.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Menu.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/OnlineIndicator.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/OnlineIndicator.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/StatusList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/StatusList.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Table.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Table.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/Toggle.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/Toggle.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/WidgetCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ui/WidgetCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/widgets/DeviceInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/DeviceInformation.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/widgets/GatewayInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/GatewayInformation.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/widgets/NetworkInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/NetworkInformation.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/widgets/UsageInformation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/widgets/UsageInformation.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__error.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__error.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/api/[endpoint].ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api/[endpoint].ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/devices.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/devices.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/options.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/options.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/overview.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/overview.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/status.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/status.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
