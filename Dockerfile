@@ -12,10 +12,10 @@ WORKDIR /app
 RUN apt update
 RUN apt install -y iputils-ping
 
-COPY --from=build /app/node_modules ./node_modules
-COPY --from=build /app/build ./build
-COPY --from=build /app/svelte.config.js .
-COPY --from=build /app/package.json ./
+COPY --from=build /app/node_modules /app//node_modules
+COPY --from=build /app/build /app/build
+COPY --from=build /app/svelte.config.js /app/
+COPY --from=build /app/package.json /app/
 
 ENV PORT=3000
 CMD [ "node", "./build" ]
