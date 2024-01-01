@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 COPY . .
 #RUN npm ci
-RUN npm install
+RUN npm install --force
 RUN npm run build
 
 FROM node:16-bullseye AS deploy
