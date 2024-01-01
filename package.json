@@ -4,9 +4,9 @@
   "license": "MIT",
   "version": "0.1.1",
   "scripts": {
-    "dev": "npx velte-kit dev",
-    "build": "npx svelte-kit build",
-    "preview": "npx svelte-kit preview",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
     "check": "npx svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "npx svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -14,9 +14,9 @@
     "upgrade": "npm-check-updates -u '/^!@sveltejs/.*$/' && npm install"
   },
   "devDependencies": {
-    "@sveltejs/adapter-node": "^1.0.0-next.61",
-    "@sveltejs/kit": "^1.30.3",
-    "@sveltejs/vite-plugin-svelte": "^2.4.1",
+    "@sveltejs/adapter-auto": "^3.0.1",
+    "@sveltejs/adapter-node": "^2.0.2",
+    "@sveltejs/kit": "^2.0.6",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
     "autoprefixer": "^10.4.1",
@@ -30,16 +30,17 @@
     "postcss-load-config": "^3.1.1",
     "prettier": "~2.5.1",
     "prettier-plugin-svelte": "^2.10.1",
-    "svelte": "^4.0.0",
+    "svelte": "^4.2.8",
     "svelte-check": "^3.4.3",
     "svelte-preprocess": "^5.0.3",
     "tailwindcss": "^3.0.8",
     "tslib": "^2.3.1",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vite": "^5.0.3"
   },
   "type": "module",
   "dependencies": {
-    "svelte-kit": "^1.2.0",
-    "vite": "^4.0.0"
+    "@neoconfetti/svelte": "^2.2.1",
+    "@sveltejs/vite-plugin-svelte": "^3.0.1"
   }
 }
