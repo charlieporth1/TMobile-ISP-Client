@@ -1,4 +1,4 @@
-FROM node:14-bullseye AS build
+FROM node:16-bullseye AS build
 WORKDIR /app
 COPY package.json package-lock.json ./
 COPY . .
@@ -6,7 +6,7 @@ COPY . .
 RUN npm install
 RUN npm run build
 
-FROM node:14-bullseye AS deploy
+FROM node:16-bullseye AS deploy
 WORKDIR /app
 
 RUN apt update
